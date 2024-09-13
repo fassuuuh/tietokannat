@@ -47,3 +47,14 @@ and game.screen_name = "Ilkka";
 
 ![kuva](./ruudunkappaukset/teht.2.6.png)
 
+### Tehtävä 7
+select country.name
+from country, game, airport
+where game.location = airport.ident 
+and airport.iso_country = country.iso_country
+and game.screen_name = "Ilkka";
+
+![kuva](./ruudunkappaukset/teht.2.7.png)
+
+### Tehtävä 8
+
