@@ -57,4 +57,13 @@ and game.screen_name = "Ilkka";
 ![kuva](./ruudunkappaukset/teht.2.7.png)
 
 ### Tehtävä 8
+select goal.name
+from goal, goal_reached, game
+where goal.id = goal_reached.goal_id
+and goal_reached.game_id = game.id
+and screen_name = "Heini";
+
+![kuva](./ruudunkappaukset/teht.2.8.png)
+
+### Tehtävä 9
 
