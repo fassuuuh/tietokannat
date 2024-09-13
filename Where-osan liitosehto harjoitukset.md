@@ -22,3 +22,16 @@ where airport.iso_country = country.iso_country
 and country.continent = "AN";
 
 ![kuva](./ruudunkappaukset/teht.2.3.png)
+
+### Tehtävä 4
+select elevation_ft
+from game, airport
+where game.location = airport.ident
+and screen_name = "Heini";
+
+![kuva](./ruudunkappaukset/teht.2.4.png)
+
+### Tehtävä 5
+
+
+
