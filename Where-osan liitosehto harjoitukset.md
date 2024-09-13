@@ -39,5 +39,11 @@ and screen_name = "Heini";
 
 ![kuva](./ruudunkappaukset/teht.2.5.png)
 
+### Tehtävä 6
+select name
+from airport, game
+where game.location = airport.ident
+and game.screen_name = "Ilkka";
 
+![kuva](./ruudunkappaukset/teht.2.6.png)
 
