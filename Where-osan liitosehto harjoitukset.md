@@ -66,4 +66,12 @@ and screen_name = "Heini";
 ![kuva](./ruudunkappaukset/teht.2.8.png)
 
 ### Tehtävä 9
+select airport.name
+from goal, goal_reached, game, airport
+where goal.id = goal_reached.goal_id
+and goal_reached.game_id = game.id
+and game.location = airport.ident
+and goal.name = "clouds"
+and screen_name = "Ilkka";
 
+![kuva](./ruudunkappaukset/teht.2.9.png)
