@@ -75,3 +75,15 @@ and goal.name = "clouds"
 and screen_name = "Ilkka";
 
 ![kuva](./ruudunkappaukset/teht.2.9.png)
+
+### Tehtävä 10
+select country.name
+from goal, goal_reached, game, airport, country
+where goal.id = goal_reached.goal_id
+and goal_reached.game_id = game.id
+and game.location = airport.ident
+and airport.iso_country = country.iso_country
+and goal.name = "clouds"
+and screen_name = "Ilkka";
+
+![kuva](./ruudunkappaukset/teht.2.10.png)
