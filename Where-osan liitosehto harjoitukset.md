@@ -32,6 +32,12 @@ and screen_name = "Heini";
 ![kuva](./ruudunkappaukset/teht.2.4.png)
 
 ### Tehtävä 5
+select (elevation_ft * 0.3048) as "elevation_m"
+from game, airport
+where game.location = airport.ident
+and screen_name = "Heini";
+
+![kuva](./ruudunkappaukset/teht.2.5.png)
 
 
 
